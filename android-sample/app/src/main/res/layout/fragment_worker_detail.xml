@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.edu.techkids.mahr.fragment.WorkerDetailFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/wvWorkerDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/dialog_padding">
+            <Button
+                android:id="@+id/btnUse"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_main_button"
+                android:textColor="@color/color_white"
+                android:layout_marginLeft="@dimen/small_selection_margin"
+                android:layout_marginRight="@dimen/small_selection_margin"
+                android:text="@string/use"
+                />
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_main_button"
+                android:textColor="@color/color_white"
+                android:layout_marginLeft="@dimen/small_selection_margin"
+                android:layout_marginRight="@dimen/small_selection_margin"
+                android:text="@string/share"/>
+            <Button
+
+                android:id="@+id/btnConfirm"
+                android:background="@drawable/selector_main_button"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/color_white"
+                android:layout_marginLeft="@dimen/small_selection_margin"
+                android:layout_marginRight="@dimen/small_selection_margin"
+                android:text="@string/confirm"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

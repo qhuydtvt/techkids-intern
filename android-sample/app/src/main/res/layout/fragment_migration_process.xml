@@ -1,0 +1,397 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MigrationProcessFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageViewScreen5"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/imageViewScreen5"
+                android:layout_marginLeft="5dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Ho va Ten : Nguyen Van A"
+                    android:id="@+id/txtS5Name"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Mã số: YT123"
+                    android:id="@+id/txtS5ID"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Tên xưởng: Xưởng A"
+                    android:id="@+id/txtS5Bone"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Chi nhánh: Hoàn Kiếm"
+                    android:id="@+id/txtS5Branch"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Công ty: Hanlen"
+                    android:id="@+id/txtS5Company"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonEdit"
+                android:src="@mipmap/ic_mode_edit_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#FAFAFA"/>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardPassport">
+                    <RelativeLayout
+                        android:id="@+id/rl_passport"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageDone"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:layout_margin="20dp"
+                            android:checked="true"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Hộ chiếu"
+                            android:id="@+id/textViewPassport"
+                            android:layout_toEndOf="@+id/imageDone"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Hoàn thành: 10/03/2016"
+                            android:id="@+id/textViewPassportEndDate"
+                            android:layout_below="@+id/textViewPassport"
+                            android:layout_toEndOf="@+id/imageDone"
+                            android:clickable="false"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardLegal">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageDoneLegal"
+                            android:layout_margin="20dp"
+                            android:checked="true"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Tư pháp"
+                            android:id="@+id/textViewLegal"
+                            android:layout_toEndOf="@+id/imageDoneLegal"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Hoàn thành: 10/3/2016"
+                            android:id="@+id/textViewLegalEndDate"
+                            android:layout_below="@+id/textViewLegal"
+                            android:layout_toEndOf="@+id/imageDoneLegal"
+                            android:clickable="false"/>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardHealth">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageDoneHealth"
+                            android:layout_margin="20dp"
+                            android:checked="true"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Khám sức khoẻ"
+                            android:id="@+id/textViewHealth"
+                            android:layout_toEndOf="@+id/imageDoneHealth"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Hoàn thành: 10/3/2016"
+                            android:id="@+id/textViewHealthEndDate"
+                            android:layout_below="@+id/textViewHealth"
+                            android:layout_toEndOf="@+id/imageDoneHealth"
+                            android:clickable="false" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardFile">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageDoneFile"
+                            android:layout_margin="20dp"
+                            android:checked="true"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Nhận giấy tờ"
+                            android:id="@+id/textViewFile"
+                            android:layout_toEndOf="@+id/imageDoneFile"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Hoàn thành: 10/3/2016"
+                            android:id="@+id/textViewTimeFileEndDate"
+                            android:layout_below="@+id/textViewFile"
+                            android:layout_toEndOf="@+id/imageDoneFile"
+                            android:clickable="false" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardOffice">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageDoneOffice"
+                            android:layout_margin="20dp"
+                            android:checked="true"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Trình cục"
+                            android:id="@+id/textViewOffice"
+                            android:layout_toEndOf="@+id/imageDoneOffice"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Trình: 10/3/2016 - Lĩnh 20/3/2016"
+                            android:id="@+id/textViewTimeOfficeEndDate"
+                            android:layout_below="@+id/textViewOffice"
+                            android:layout_toEndOf="@+id/imageDoneOffice"
+                            android:clickable="false" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardVisa">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <CheckBox
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imageDoneVisa"
+                            android:layout_margin="20dp"
+                            android:checked="true"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Visa"
+                            android:id="@+id/textViewVisa"
+                            android:layout_toEndOf="@+id/imageDoneVisa"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Làm:10/3/2016 - Lĩnh: 20/3/2016 "
+                            android:id="@+id/textViewTimeVisa"
+                            android:layout_below="@+id/textViewVisa"
+                            android:layout_toEndOf="@+id/imageDoneVisa"
+                            android:clickable="false" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardFlight">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageDoneFlight"
+                            android:layout_margin="20dp"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Dự kiến bay"
+                            android:id="@+id/textViewFlight"
+                            android:layout_toEndOf="@+id/imageDoneFlight"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="xxx-xx-xx"
+                            android:id="@+id/textViewTimeFlight"
+                            android:layout_below="@+id/textViewFlight"
+                            android:layout_toEndOf="@+id/imageDoneFlight"
+                            android:clickable="false" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:id="@+id/cardFinish">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <CheckBox
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imageDoneFinish"
+                            android:layout_margin="20dp"
+                            android:buttonTint="@color/ColorLanguageButtonBackgroundHighLight"
+                            android:clickable="false"/>
+
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Kết Thúc"
+                            android:id="@+id/textViewFinish"
+                            android:layout_toEndOf="@+id/imageDoneFinish"
+                            android:clickable="false" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

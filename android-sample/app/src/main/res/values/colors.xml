@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ColorLanguageButtonBackground">#29B6F6</color>
+    <color name="color_button_clicked">#01579B</color>
+    <color name="color_action_bar">#29B6F6</color>
+    <color name="ColorLanguageButtonBackgroundHighLight">#1B5E20</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="ColorLanguageButtonText">#29B6F6</color>
+    <color name="ColorMainBackground">#29B6F6</color>
+    <color name="color_primary_dark">#29B6F6</color>>
+</resources>

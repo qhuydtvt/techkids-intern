@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MA HR</string>
+    <string name="message_download_failed">下载工人失败</string>
+    <string name="vietnam">Vietnam</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="listJobMainName">Jenis jabatan</string>
+    <string name="male_employee">Pekerja laki-laki</string>
+    <string name="female_employee">Pekerja perempuan</string>
+    <string name="house_maid">Housemate</string>
+    <string name="default_type_filter">Kegagalan</string>
+    <string name="list_employee">Daftar Karyawan</string>
+    <string name="properties_filter">Sifat Filter</string>
+    <string name="expertise">Keahlian</string>
+    <string name="age">Usia</string>
+    <string name="height">Tinggi</string>
+    <string name="weight">Berat</string>
+    <string name="language">Bahasa</string>
+    <string name="experience">Pengalaman</string>
+    <string name="degree">Gelar</string>
+    <string name="college">Perguruan tinggi</string>
+    <string name="cnc">CNC</string>
+    <string name="electronics">Elektronik</string>
+    <string name="food">Makanan</string>
+    <string name="from">Dari</string>
+    <string name="high_school">SMA</string>
+    <string name="mechanic">Montir</string>
+    <string name="ok">Baik</string>
+    <string name="secondary_school">Sekolah menengah</string>
+    <string name="taiwan">Taiwan</string>
+    <string name="textile">Tekstil</string>
+    <string name="to">Untuk</string>
+    <string name="university">Universitas</string>
+    <string name="weld">Las</string>
+    <string name="woodwork">Kayu</string>
+    <string name="worker">Pekerja</string>
+    <string name="loading">Pemuatan...</string>
+    <string name="vocational">Kejuruan</string>
+    <string name="confirm"></string>
+    <string name="action_bar_name">Nationnality</string>
+    <string name="action_bar_filter"> Job Categories</string>
+
+</resources>

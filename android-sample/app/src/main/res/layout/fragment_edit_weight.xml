@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dialog_padding">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rowCount="2"
+        android:columnCount="2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:textSize="@dimen/dialog_text_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dialog_text_margin"
+            android:layout_column="0"
+            android:layout_row="0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:textSize="@dimen/dialog_text_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dialog_text_margin"
+            android:layout_column="1"
+            android:layout_row="0"/>
+
+        <NumberPicker
+            android:descendantFocusability="blocksDescendants"
+            android:id="@+id/npFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dialog_text_margin"
+            android:layout_column="0"
+            android:layout_row="1"/>
+
+        <NumberPicker
+            android:descendantFocusability="blocksDescendants"
+            android:id = "@+id/npTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dialog_text_margin"
+            android:layout_column="1"
+            android:layout_row="1"/>
+            />
+    </GridLayout>
+
+    <Button
+        android:minWidth="350dp"
+        android:id="@+id/btnOK"
+        android:text="@string/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

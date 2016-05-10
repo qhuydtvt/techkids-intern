@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MA HR</string>
+    <string name="search">搜尋</string>
+    <string name="vietnam">越南</string>
+    <string name="indonesia">印尼</string>
+    <string name="listJobMainName">职位类型</string>
+    <string name="male_employee">廠男</string>
+    <string name="female_employee">廠女</string>
+    <string name="house_maid">家庭類</string>
+    <string name="default_type_filter">默认</string>
+    <string name="properties_filter">属性过滤器</string>
+    <string name="list_employee">员工名单</string>
+    <string name="expertise">專長</string>
+    <string name="age">\u5E74\u9F61</string>
+    <string name="height">身高</string>
+    <string name="weight">體重</string>
+    <string name="language">語言</string>
+    <string name="experience">经 验</string>
+    <string name="degree">學歷</string>
+    <string name="college">大專</string>
+    <string name="cnc">CNC</string>
+    <string name="electronics">電子</string>
+    <string name="food">食品</string>
+    <string name="from">從</string>
+    <string name="high_school">高中</string>
+    <string name="mechanic">機械</string>
+    <string name="ok">好</string>
+    <string name="secondary_school">國中</string>
+    <string name="taiwan">台灣</string>
+    <string name="textile">紡織品</string>
+    <string name="to">至</string>
+    <string name="university">大學</string>
+    <string name="weld">焊接</string>
+    <string name="woodwork">木工</string>
+    <string name="worker">工人</string>
+    <string name="loading">载入中...</string>
+    <string name="vocational">中專</string>
+    <string name="use">使用</string>
+    <string name="share">分享</string>
+    <string name="primary_school">國小</string>
+    <string name="office_start">过程</string>
+    <string name="office_end">范围</string>
+    <string name="action_bar_name">國家</string>
+    <string name="action_bar_major_name">類別</string>
+    <string name="action_bar_filter">職位類別</string>
+
+</resources>

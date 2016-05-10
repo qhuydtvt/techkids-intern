@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.edu.techkids.mahr">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name=".MAHARApplication"
+        android:label="MA HR"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".activity.MainActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />s
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>"
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="32faab8a3ccb2e5f39d63645bc163b33dfb7f3ba" />
+    </application>
+
+</manifest>

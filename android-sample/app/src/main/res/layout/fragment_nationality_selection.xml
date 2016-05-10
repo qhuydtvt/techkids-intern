@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragment.NationalitySelectionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnVietnam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="@dimen/main_activity_button_margin"
+                android:background="@drawable/selector_main_button"
+                android:text="@string/vietnam"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/main_activity_button_text_size"/>
+
+            <Button
+                android:id="@+id/btnIndonesia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="@dimen/main_activity_button_margin"
+                android:background="@drawable/selector_main_button"
+                android:text="@string/indonesia"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/main_activity_button_text_size"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@mipmap/welcome_app"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

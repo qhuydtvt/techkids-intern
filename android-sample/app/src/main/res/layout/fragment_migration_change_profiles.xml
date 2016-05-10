@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/full_screen_dialog">
+
+    <GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dialog_margin"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <TextView
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/factory"
+            android:textSize="@dimen/dialog_text_size"
+            android:layout_margin="@dimen/dialog_text_margin"
+            />
+        <TextView
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/department"
+            android:textSize="@dimen/dialog_text_size"
+            android:layout_margin="@dimen/dialog_text_margin"
+            />
+
+        <TextView
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/vietnam_company"
+            android:textSize="@dimen/dialog_text_size"
+            android:layout_margin="@dimen/dialog_text_margin"
+            />
+        <EditText
+            android:layout_width="280dp"
+            android:id="@+id/txt_factory"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:textSize="@dimen/dialog_text_size"
+
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="@dimen/dialog_text_margin"
+            />
+        <EditText
+
+            android:id="@+id/txt_department"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="@dimen/dialog_text_margin"
+            />
+        <EditText
+
+            android:id="@+id/txt_company"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:textSize="@dimen/dialog_text_size"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_margin="@dimen/dialog_text_margin"
+            />
+    </GridLayout>
+    <Button
+        android:id="@+id/btn_fragment_profile_edit_OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"/>
+</LinearLayout>
