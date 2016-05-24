@@ -212,25 +212,25 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Packs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9C2-l0-ELa">
                                         <rect key="frame" x="25" y="275" width="250" height="50"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                        <color key="textColor" red="0.98859943579999998" green="0.98808501879999999" blue="0.95348562849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAn-bU-oco">
                                         <rect key="frame" x="325" y="275" width="250" height="50"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                        <color key="textColor" red="0.98859943579999998" green="0.98808501879999999" blue="0.95348562849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wT-He-zRz">
                                         <rect key="frame" x="325" y="531" width="250" height="50"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                        <color key="textColor" red="0.98859943579999998" green="0.98808501879999999" blue="0.95348562849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmC-UO-hHp">
                                         <rect key="frame" x="25" y="531" width="250" height="50"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                        <color key="textColor" red="0.98859943579999998" green="0.98808501879999999" blue="0.95348562849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.75294117650000003" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
