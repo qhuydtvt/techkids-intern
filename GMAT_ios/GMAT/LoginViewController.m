@@ -21,7 +21,7 @@
 
 @interface LoginViewController ()
 
-#define SKIP_LOGIN 1
+#define SKIP_LOGIN 0
 
 @end
 
